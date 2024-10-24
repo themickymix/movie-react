@@ -55,7 +55,7 @@ function NavBar() {
                     } `
                   }
                   to="/">
-                  Trending
+                  Home
                 </NavLink>
               </li>
               <li>
