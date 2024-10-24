@@ -18,7 +18,7 @@ function MovieSec() {
   }, []); // Empty dependency array to run only once on mount
 
   return (
-    <div className="grid grid-cols-2 md:grid-cols-6 gap-4 p-2 md:p-5">
+    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-5 lg:grid-cols-8 gap-4 p-5">
       {movies.map((movie) => (
         <Cardtemp
           key={movie.id}
