@@ -17,7 +17,7 @@ function NavBar() {
                   `py-2 px-3 rounded ${
                     isActive
                       ? "text-white bg-blue-700"
-                      : "text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                      : "text-white hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                   } `
                 }
                 to="/">
